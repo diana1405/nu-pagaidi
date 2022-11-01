@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #D7F3FF;
+	font-family: 'Imprima';
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #99caf8;
+  }
+
+.panel {
+	margin-top: 40px;
+
+}
+
+.paneltext {
+	margin-top: 40px;
+
+}
+
+.text{
+    font-family: 'Imprima';
+    font-size: 35px;
+    color: black;
+}
+
+li {
+    float: left;
+    
+}
+  
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 7px 45px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: pink;
+}
+
+.ruletext {
+    text-align: center;
+	margin: 15px;
+}

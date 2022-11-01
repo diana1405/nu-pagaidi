@@ -48,6 +48,15 @@ li a:hover:not(.active) {
     background-color: pink;
 }
 
+.contact{
+	text-align: center;
+	margin: 15px;
+}
+
+.map {
+	margin: 15px;
+}
+
 /*LOGO*/
 
 #img {
