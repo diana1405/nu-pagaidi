@@ -80,7 +80,7 @@ li a:hover:not(.active) {
     text-align: center;
     line-height: 180px;
 	padding: 10px;
-    margin-bottom: 150px;
+    margin-bottom: 30px;
 }
 
 .cat a {
@@ -96,15 +96,7 @@ li a:hover:not(.active) {
     text-align: center;
 	padding: 10px;
     margin-bottom: 30px;
-}
-
-.sub-cat:hover {
-    background: #FCD6E6;
-}
-
-.sub-cat a {
-	text-decoration: none;
-    color: black;
+    border: none;
 }
 
 .announcement {
@@ -117,25 +109,7 @@ li a:hover:not(.active) {
 
 .pink-block {
     margin-top: 20px;
-    padding-left: 10px;
-    font-size: 20px;
     width: 600px;
-    height: 50px;
+    height: 150px;
     background: #FFF2FC;
-    border: none;
-}
-
-.log-out button {
-    margin-top: 170px;
-    font-size: 20px;
-    width: 200px;
-    height: 50px;
-    background: #FFF2FC;
-    border: none;
-    float: right;
-}
-
-.log-out button:hover {
-    background: #FCD6E6;
-    cursor: pointer;
 }

@@ -45,7 +45,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: pink;
+    background-color: #FCD6E6;
 }
 
 .contact{
