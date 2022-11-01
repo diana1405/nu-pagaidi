@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Imprima';
+}
+
+body {
+    background-color: #D7F3FF;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #99caf8;
+  }
+
+.text{
+    font-family: 'Imprima';
+    font-size: 35px;
+	line-height: 95px;
+	padding-right: 10px;
+    color: black;
+}
+
+
+li {
+    float: left;
+}
+
+.lang {
+	float: right;
+}
+  
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 16px;
+    line-height: 104px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: pink;
+}
+
+/*LOGO*/
+
+#img {
+    line-height: 0px;
+}
+
+#img:hover:not(.active) {
+    background-color: #99caf8;
+}
+
+/*CONTENT*/
+
+.category {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+	justify-content: center;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.cat {
+	width: 220px;
+	height: 200px;
+	margin: 20px;
+	background: #FCD6E6;
+    font-size: 22px;
+	padding-top: 20px;
+}
+
+.cat a {
+	text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registration.css">
+    <title>Log In</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+
+    <!-- <script src="js/registration.js"></script> -->
+
+    <!--For country code in phone number-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+
+</head>
+<body>
+
+
+    <div class="container">
+
+      <div class="user_reg" style="text-align: center">
+        <img src="images/logo.png" width="150" height="145">
+      </div>
+      
+
+
+        <div class="box2">
+          <label for="email" class="fl fontLabel"> Email: </label>
+          <div class="input">
+            <input type="email" required name="email" placeholder="Email" class="textBox">
+          </div>
+               
+        </div>
+
+  
+        <div class="box">
+          <label for="password" class="fl fontLabel"> Password: </label>
+            <div class="input">
+              <input type="Password" required name="password" placeholder="Password" class="textBox">
+            </div>
+              
+        </div>
+  
+  
+
+        <div class="buttonHolder" style="text-align: center">
+          <button class="button2" onclick="alert('Pagaidām nav iespējams izveidot kontu!')"> LOGIN </button>
+        </div>
+              
+                    
+        
+    </div>
+
+    
+</body>
+
+<script>
+  const phoneInputField = document.querySelector("#phone");
+  const phoneInput = window.intlTelInput(phoneInputField, {
+    utilsScript:
+      "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+  });
+</script>
+
+</html>
