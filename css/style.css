@@ -67,12 +67,16 @@ li a:hover:not(.active) {
     background-color: #99caf8;
 }
 
+#img-mail {
+    padding-top: 28px;
+    line-height: 70.5px;
+}
+
 /*CONTENT*/
 
 .category {
 	display: flex;
 	flex-flow: row wrap;
-	text-align: center;
 	justify-content: center;
 	max-width: 1200px;
 	margin: auto;
@@ -80,14 +84,23 @@ li a:hover:not(.active) {
 
 .cat {
 	width: 220px;
-	height: 200px;
 	margin: 20px;
 	background: #FCD6E6;
     font-size: 22px;
-	padding-top: 20px;
 }
 
 .cat a {
 	text-decoration: none;
     color: black;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.categ {
+    background-color: #FFF2FC;
+}
+
+.categ a {
+    line-height: 50px;
+    padding-left: 10px;
 }

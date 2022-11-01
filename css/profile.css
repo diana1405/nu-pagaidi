@@ -58,6 +58,11 @@ li a:hover:not(.active) {
     background-color: #99caf8;
 }
 
+#img-mail {
+    padding-top: 28px;
+    line-height: 70.5px;
+}
+
 /*CONTENT*/
 
 .content {

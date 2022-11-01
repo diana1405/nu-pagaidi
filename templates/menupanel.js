@@ -13,6 +13,7 @@ class Navbar extends HTMLElement {
     <li><a href="login.html">Login</a></li>
     <li><a href="contacts.html">About</a></li>
     <li><a href="rules.html">Rules</a></li>
+    <li><a id="img-mail" href="index.html"><img src="images/mail.png" width="50"></a></li>
     <li class="lang"><a href="#">RU</a></li>
     <li class="lang"><a href="#">EN</a></li>
     <li class="lang"><a href="#">LV</a></li>
