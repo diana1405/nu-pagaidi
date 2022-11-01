@@ -8,6 +8,8 @@
 
 [Figma](https://www.figma.com/file/QxXM8MpNzUXql0djtffoH9/Nu%2C-pagaidi!?node-id=23%3A126)
 
+[GitHub Pages](https://diana1405.github.io/nu-pagaidi/)
+
 
 Commands:
 
