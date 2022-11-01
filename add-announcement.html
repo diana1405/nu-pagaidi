@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/add-announcement.css">
     <link href='https://fonts.googleapis.com/css?family=Imprima' rel='stylesheet'>
     <script src="templates/menupanel.js"></script>
-    <title>Profile</title>
+    <title>Add announcement</title>
     <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
 <body>
@@ -19,30 +19,26 @@
         <div class="cat">
             <a href="#">Picture</a>
         </div>
-        <div class="sub-cat">
-            <a href="add-announcement.html">Add announcement</a>
+        <div>
+            <input class="sub-cat" name="number" type="number" placeholder="Price" required>
         </div>
-        <div class="sub-cat">
-            <a href="announcement-list.html">Announcement list</a>
+        <div>
+            <input class="sub-cat" name="text" type="text" placeholder="Category" required>
         </div>
-
+        <div>
+            <input class="sub-cat" name="phone" type="text" placeholder="Contacts" required>
+        </div>
     </div>
 
     <div class="announcement">
         <div>
-            <input class="pink-block" name="name" type="text" placeholder="Name" required>
+            <input class="pink-block" name="title" type="text" placeholder="Title" required>
         </div>
         <div>
-            <input class="pink-block" name="surname" type="text" placeholder="Surname" required>
-        </div>
-        <div>
-            <input class="pink-block" name="email" type="email" placeholder="E-mail" required>
-        </div>
-        <div>
-            <input class="pink-block" name="phone" type="text" placeholder="Phone number" required>
+            <textarea name="text" type="text" placeholder="Description" required></textarea>
         </div>
         <div class="log-out">
-            <button>Log Out</button>
+            <button>Add</button>
         </div>
     </div>
     </div>
